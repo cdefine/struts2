@@ -14,5 +14,9 @@
 			<param name="contentDisposition">attachment;filename=${filename}</param>
 			</result>
 		</action>
+		<action name="checkLogin" class="controller.checkLogin" method="check">
+			<result name="suc" >/login_suc.jsp</result>
+			<result name="fail ">/login_fail.jsp</result>
+		</action>
 	</package>
 </struts>    
