@@ -9,6 +9,6 @@ public interface  StuDao {
 	boolean checkstu(String username)throws Exception;
 	boolean delById(long id)throws Exception;
 	boolean update(Stu stu)throws Exception;
-	boolean save(Stu stu)throws Exception;
+	boolean add(Stu stu)throws Exception;
 	
 }

@@ -2,35 +2,34 @@ package domain;
 
 public class Stu {
 	private long stuId;
-	private String stuName;
-	private String stuClass;
+	private String sname;
+	private String sdept;
 	private String pass;
 	private int age;
 	private int java;
-	public String getPass() {
-		return pass;
-	}
-	public void setPass(String pass) {
-		this.pass = pass;
-	}
-
 	public long getStuId() {
 		return stuId;
 	}
 	public void setStuId(long stuId) {
 		this.stuId = stuId;
 	}
-	public String getStuName() {
-		return stuName;
+	public String getSname() {
+		return sname;
 	}
-	public void setStuName(String stuName) {
-		this.stuName = stuName;
+	public void setSname(String sname) {
+		this.sname = sname;
 	}
-	public String getStuClass() {
-		return stuClass;
+	public String getSdept() {
+		return sdept;
 	}
-	public void setStuClass(String stuClass) {
-		this.stuClass = stuClass;
+	public void setSdept(String sdept) {
+		this.sdept = sdept;
+	}
+	public String getPass() {
+		return pass;
+	}
+	public void setPass(String pass) {
+		this.pass = pass;
 	}
 	public int getAge() {
 		return age;
@@ -44,6 +43,7 @@ public class Stu {
 	public void setJava(int java) {
 		this.java = java;
 	}
+
 	
 	
 }

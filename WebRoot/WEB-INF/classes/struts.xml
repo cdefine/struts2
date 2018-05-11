@@ -18,5 +18,18 @@
 			<result name="suc" >/login_suc.jsp</result>
 			<result name="fail ">/login_fail.jsp</result>
 		</action>
+		<action name="stuadd" class="controller.StuInfoAction" method="add">
+			<result type="redirect">/op_suc.jsp</result>
+			<result name="error" type="redirect">/op_fail.jsp</result>
+		
+		</action>
+		<action name="studel" class="controller.StuInfoAction" method="del">
+			<result type="redirect">/op_suc.jsp</result>
+			<result name="error" type="redirect">/op_fail.jsp</result>		
+		</action>
+		<action name="show" class="controller.StuInfoAction" >
+			<result>/stu_list.jsp</result>
+		
+		</action>
 	</package>
 </struts>    
